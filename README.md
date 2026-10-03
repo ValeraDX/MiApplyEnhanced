@@ -39,4 +39,8 @@ uv run miapplyenhanced
 This will automatically install every needed dependency and run the cli.
 
 ### Run it without uv
-If you're not a big fan of uv (understandable!), you can `pip install micommunity` manually and then run `./src/miapplyenhanced/cli.py`
+If you're not a big fan of uv (understandable!), you can
+```
+pip install micommunity datetime ntplib pytz requests
+```
+manually and then run `./src/miapplyenhanced/cli.py`
