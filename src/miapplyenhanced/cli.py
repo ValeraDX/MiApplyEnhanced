@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
+print("MiApplyEnhanced")
 
 print("\nHow It Works: https://viewmd.github.io/MiForge/MiCommunityTool/refs/heads/main/miapply/README\n")
 
@@ -27,7 +28,6 @@ delay = ms / 1000.0
 print(f"\n[Delay]  {delay} s\n")
 
 while True:
-
     session = requests.Session()
     headers = retry(lambda: get_headers(silent=True))
 
@@ -78,3 +78,4 @@ while True:
         print(f"[Server response At]: {server_time.strftime('%H:%M:%S')} (GMT+8)\n\n")
 
     print(apply(response).get('message'))
+
