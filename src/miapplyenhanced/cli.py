@@ -108,3 +108,5 @@ while True:
         except Exception: print(f"          Raw: {response.text!r}")
         print(f"          -> {apply(response).get('message')}\n")
     print(f"[Done — {num_requests} request(s) sent]\n")
+    print("Now rush to press the `Bind Mi account` button regardless of the result!")
+    print("If it didn't work, log out, log back in and try it again!")
