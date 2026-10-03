@@ -10,7 +10,8 @@ import requests
 from micommunity import APPLY_URL, STATE_URL, apply, get_headers, state
 
 print("MiApplyEnhanced")
-print("\nHow It Works: https://viewmd.github.io/MiForge/MiCommunityTool/refs/heads/main/miapply/README\n")
+print("How It Works: https://viewmd.github.io/MiForge/MiCommunityTool/refs/heads/main/miapply/README\n")
+print("If you are on HyperOS 1, consider using https://github.com/TheAirBlow/HyperSploit instead.")
 
 def retry(fn):
     try: return fn()
