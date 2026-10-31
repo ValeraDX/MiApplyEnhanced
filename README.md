@@ -44,3 +44,7 @@ If you're not a big fan of uv (understandable!), you can
 pip install micommunity datetime ntplib pytz requests
 ```
 manually and then run `./src/miapplyenhanced/cli.py`
+
+
+##  What this fork adds?
+It adds automatic ping calculation and several requests. The ping can be calculated either now (not recommended, this option was added for testing only), or right before firing the requests. The requests are fired one after another, the timing differences between them are made up by natural deviances of each ping attempt. This application also fires a bonus request made at the time of average ping. Firing a bunch of requests is safe for now, but if it's going to change then let me know in issues.
